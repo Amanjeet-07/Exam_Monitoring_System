@@ -8,8 +8,8 @@ import datetime
 import time
 from tkinter import messagebox
 
-x=0
-y=0
+x1=0
+y1=0
 window = tk.Tk()
 
 window.title("Attendance System")
@@ -231,8 +231,10 @@ def TrackImages():
     res = "Attendance Taken"
     message.configure(text= res)
     
-    x=len(str(Id)) 
-    y=Id
+    x1=len(str(Id)) 
+    y1=Id
+    print(x1)
+    print(y1)
     
     
  
@@ -253,10 +255,10 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')   
   
 def quit_window1():
-    global x
-    print(x)
     
-    if(x==0):
+    
+   
+    if(x1==0):
         MsgBox = tk.messagebox.askquestion ('Invalid Entry','Give your attendance first!!!',icon = 'warning')
     else:
         
@@ -312,7 +314,7 @@ def quit_window1():
                
                break
 
-        row=[y,eye,face]        
+        row=[y1,eye,face]        
         with open('Unusual Movement\Timestamp.csv','a') as csvFile:
             writer = csv.writer(csvFile)
             writer.writerow(row)
@@ -327,9 +329,11 @@ trainImg = tk.Button(window, text="MODEL TRAINING BUTTON", command=TrainImages  
 trainImg.place(x=645-x_cord, y=425-y_cord)
 trackImg = tk.Button(window, text="ATTENDANCE MARKING BUTTON", command=TrackImages  ,fg="white"  ,bg="red"  ,width=30  ,height=3, activebackground = "pink" ,font=('Times New Roman', 15, ' bold '))
 trackImg.place(x=1075-x_cord, y=412-y_cord)
-quitWindow = tk.Button(window, text="QUIT", command=quit_window  ,fg="white"  ,bg="red"  ,width=10  ,height=2, activebackground = "pink" ,font=('Times New Roman', 15, ' bold '))
-quitWindow.place(x=1000, y=735-y_cord)
+
 quitWindow1 = tk.Button(window, text="Start Test", command=quit_window1,fg="white"  ,bg="red"  ,width=10  ,height=2, activebackground = "pink" ,font=('Times New Roman', 15, ' bold '))
 quitWindow1.place(x=500, y=735-y_cord)
+
+quitWindow = tk.Button(window, text="QUIT", command=quit_window  ,fg="white"  ,bg="red"  ,width=10  ,height=2, activebackground = "pink" ,font=('Times New Roman', 15, ' bold '))
+quitWindow.place(x=1000, y=735-y_cord)
  
 window.mainloop()
