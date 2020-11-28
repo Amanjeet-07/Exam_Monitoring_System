@@ -28,7 +28,7 @@ After installing all the dependencies, clone the repository into your local driv
 
 ## Snippets from the Interface
 
-1. First page of the interface
+1. First page of the interface </br>
 ![](snippets/Intro.png)
 
 2. Register Page 
