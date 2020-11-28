@@ -41,13 +41,13 @@ After installing all the dependencies, clone the repository into your local driv
 
 Contributor names and contact info:
 
-Amanjeet Pani
-GitHub : [@AmanjeetPani](https://github.com/AmanjeetPani)
+Amanjeet Pani</br>
+GitHub : [@AmanjeetPani](https://github.com/AmanjeetPani)</br>
 Email : amanjeetpani2405@gmail.com
 
-Anshuman Sandhibigraha
-Github : [@anshusandhi6](https://github.com/anshusandhi6)
-Email : anshusandhi6@gmail.com
+Anshuman Sandhibigraha</br>
+Github : [@anshusandhi6](https://github.com/anshusandhi6)</br>
+Email : anshusandhi6@gmail.com</br>
 
 ## Version History
 
