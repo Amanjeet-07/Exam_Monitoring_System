@@ -24,18 +24,18 @@ The python version used in this project is 3.8.x.
 
 ## Executing program
 
-After installing all the dependencies, clone the repository into your local drive and then execute the final.py file and the user-freindly interface will open.
+After installing all the dependencies, clone the repository into your local drive and then execute the final.py file and the user-friendly interface will open.
 
 ## Snippets from the Interface
 
-1. First page of the interface </br>
-![](snippets/Intro.png)
+1. First page of the interface
+![](Snippets/Intro.png)
 
 2. Register Page 
-![](snippets/Register.png)
+![](Snippets/Register.png)
 
 3. Start Exam Page
-![](snippets/Start%20Exam.png)
+![](Snippets/Start%20Exam.png)
 
 ## Contributors
 
