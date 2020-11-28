@@ -7,7 +7,7 @@ This model is an end-to-end implementation of a ML model used to predict the per
 ##  Description
 
 
-### Model Performance
+## Model Performance
 
 The model has an accuracy of 97% on the test dataset used in the project.
 
@@ -29,24 +29,24 @@ After installing all the dependencies, clone the repository into your local driv
 ## Snippets from the Interface
 
 1. First page of the interface
-![]()
+![](snippets/Intro.png)
 
 2. Register Page 
-![]()
+![](snippets/Register.png)
 
 3. Start Exam Page
-![]()
+![](snippets/Start%20Exam.png)
 
 ## Contributors
 
 Contributor names and contact info:
 
 Amanjeet Pani
-GitHub : [@AmanjeetPani]https://github.com/AmanjeetPani
+GitHub : [@AmanjeetPani](https://github.com/AmanjeetPani)
 Email : amanjeetpani2405@gmail.com
 
 Anshuman Sandhibigraha
-Github : [@anshusandhi6]https://github.com/anshusandhi6
+Github : [@anshusandhi6](https://github.com/anshusandhi6)
 Email : anshusandhi6@gmail.com
 
 ## Version History
